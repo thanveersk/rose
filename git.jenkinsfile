@@ -5,7 +5,7 @@ pipeline{
       stages {
           stage('git checkout'){
               steps{
-                  git 'https://github.com/web3j/sample-project-maven.git'
+                  git 'https://github.com/jitpack/maven-simple.git'
               }
           }
           stage('validation'){
